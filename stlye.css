@@ -1,0 +1,51 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #070913;
+    color: #f1f5f9;
+}
+
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.glass-panel {
+    background: rgba(13, 20, 36, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(139, 92, 246, 0.18);
+}
+
+.glass-panel-hover:hover {
+    border-color: rgba(139, 92, 246, 0.4);
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.15);
+}
+
+.glow-violet {
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.25);
+}
+
+.glow-cyan {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.2);
+}
+
+.glow-emerald {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.25);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #070913;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+}
